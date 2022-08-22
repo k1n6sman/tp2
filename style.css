@@ -5,7 +5,7 @@
     box-sizing: content-box;
 }
 body{
-    background: black;
+    background: black
 }
 
 header{
@@ -129,6 +129,8 @@ main{
     align-items: center;
     border-radius: 10px;
     gap: 40px;
+    position: relative;
+    top: 50px;
 }
 
 .hero-card h1{
@@ -219,6 +221,8 @@ main{
     align-items: center;
     background: linear-gradient(90deg, #6b8b50 0%, #d4b422 86%);
     border-radius: 10px;
+    position: relative;
+    top: 50px;
 }
 
 .hero-card2 h2{
@@ -254,7 +258,7 @@ main{
     align-items: center;
     justify-content: center;
     position: absolute;
-    top: 320px;
+    top: 400px;
     background: linear-gradient(90deg, rgba(10,104,123,1) 6%, rgba(18,107,119,1) 15%, rgba(55,120,103,1) 45%, rgba(82,130,91,1) 54%, rgba(107,139,80,1) 65%, rgba(212,180,34,1) 100%);
     border-radius: 10px;
 }
